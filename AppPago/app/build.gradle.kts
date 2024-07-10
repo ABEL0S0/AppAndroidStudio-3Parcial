@@ -3,12 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.appalerta"
+    namespace = "com.example.pago"
     compileSdk = 34
-    useLibrary("org.apache.http.legacy")
 
     defaultConfig {
-        applicationId = "com.example.appalerta"
+        applicationId = "com.example.pago"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -38,7 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.firebase.perf)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
